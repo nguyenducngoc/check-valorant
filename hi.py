@@ -12,8 +12,8 @@ from json import load, dump
 import keyboard
 
 
-__author__   = 'R3nzTheCodeGOD'
-__version__  = 'v2.0.3'
+__author__   = 'hi.'
+__version__  = 'v0.0.2'
 
 
 S_HEIGHT, S_WIDTH  = ImageGrab.grab().size
@@ -126,7 +126,7 @@ class TriggerBot:
 
 def print_banner(bot: TriggerBot) -> None:
     system('cls')
-    print(Style.BRIGHT + Fore.CYAN + f'{__author__} Valorant External Cheat {__version__}' + Style.RESET_ALL)
+    print(Style.BRIGHT + Fore.CYAN + f'{__author__} Ez {__version__}' + Style.RESET_ALL)
     print('====== Controls ======')
     print('Trigger Key          :', Fore.YELLOW + f'{f"HoldKey [{HOLDKEY}]" if IS_HOLDKEY else f"ToggleKey [{TOGGLEKEY}]"}' + Style.RESET_ALL)
     print('Mode Change Key      :', Fore.YELLOW + SWITCH_KEY + Style.RESET_ALL)
